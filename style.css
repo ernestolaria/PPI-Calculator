@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(125, 213, 225);
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin-left: 55px;
+}
+
+.wrapper{
+    background-color: beige;
+    padding: 55px;
+    width: 60%; 
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+

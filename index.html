@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels per Inch Calculator</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <header>
+        <h1>PPI Calculator</h1>
+    </header>
+
+    <div class="wrapper">
+        
+        <form>
+            <p>Number of horizontal pixels.</p>
+            <input type="number" placeholder="enter value" id="horizontalPx">
+            <span id="horizontalPx_error"></span>
+            
+            <p>Number of vertical pixels.</p>
+            <input type="number" placeholder="enter value" id="verticalPx">
+            <span id="verticalPx_error"></span>
+
+            <p>Screen size in inches</p>
+            <input type="number" placeholder="enter value" id="diagonalInch">
+            <span id="size_error"></span>
+        </form>  
+        
+        <br>        
+         
+        <button id="clear">clear</button>
+
+        <br><br> 
+
+        <button id="button">Calculate</button>
+        
+        <p>Result:</p>
+        <p id="result"></p>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
