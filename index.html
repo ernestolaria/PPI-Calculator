@@ -14,36 +14,34 @@
         <h1>PPI Calculator</h1>
     </header>
 
-    <div class="wrapper">
-        
-        <form>
-            <p>Number of horizontal pixels.</p>
-            <input type="number" placeholder="enter value" id="horizontalPx">
-            <span id="horizontalPx_error"></span>
+    <div class="container">
+
+        <div class="wrapper">
+
+            <form>
+                <p class="text">Number of horizontal pixels.</p>
+                <input type="number" class="values" placeholder="enter value" id="horizontalPx">
+                <span id="horizontalPx_error"></span>
             
-            <p>Number of vertical pixels.</p>
-            <input type="number" placeholder="enter value" id="verticalPx">
-            <span id="verticalPx_error"></span>
+                <p class="text">Number of vertical pixels.</p>
+                <input type="number" class="values" placeholder="enter value" id="verticalPx">
+                <span id="verticalPx_error"></span>
 
-            <p>Screen size in inches</p>
-            <input type="number" placeholder="enter value" id="diagonalInch">
-            <span id="size_error"></span>
-        </form>  
-        
-        <br>        
+                <p class="text">Screen size in inches</p>
+                <input type="number" class="values" placeholder="enter value" id="diagonalInch">
+                <span id="size_error"></span>
+            </form>       
          
-        <button id="clear">clear</button>
+            <div class="buttons">
+                <button class="button" id="clear">clear</button>
+                <button class="button" id="calculate">Calculate</button>
+            </div>
 
-        <br><br> 
+            <p id="result"></p>
 
-        <button id="button">Calculate</button>
-        
-        <p>Result:</p>
-        <p id="result"></p>
-        
+        </div>
 
     </div>
-
     <script src="script.js"></script>
 
 </body>

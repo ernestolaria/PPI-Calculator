@@ -1,5 +1,5 @@
  
-let button = document.getElementById('button');
+let button = document.getElementById('calculate');
 
 //event listeners
 button.addEventListener('click', perform);
